@@ -29,6 +29,7 @@ If the release-build fails for any reason related to "linking", run
 #### Running
 1) `cd` to some launcher project folder
 2) Run `dotnet run` to build and run an application
+
 NOTE: If you want to run an Android application, run
 `dotnet run /p:_DeviceName:<UUID>`, where `<UUID>`
 is a device id (you can get it running `adb devices`)
